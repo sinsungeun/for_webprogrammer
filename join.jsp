@@ -74,4 +74,5 @@
 	</div>
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
+</body>
 </html>
