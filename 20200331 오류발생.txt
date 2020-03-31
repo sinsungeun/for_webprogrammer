@@ -1,0 +1,16 @@
+2020-03-31 오류 발생
+JSP 게시판 만들기 12강 수행 중 다음과 같은 오류 발생 후 아직 해결하지 못함.
+DB에서 BBS테이블을 드롭하고 다시 만드는 시도를 했으나 모르겠음.
+심각: 경로 [/BBS]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [93]에서 [/view.jsp]을(를) 처리하는 중 예외 발생
+
+90: 					<tbody>
+91: 						<tr>
+92: 							<td style="width: 20%;">湲? ?젣紐?</td>
+93: 							<td colspan="2"><%= bbs.getBbsTitle() %></td>
+94: 						</tr>
+95: 						<tr>
+96: 							<td>?옉?꽦?옄</td>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+java.lang.NullPointerException
